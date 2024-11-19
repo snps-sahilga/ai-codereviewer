@@ -7,6 +7,9 @@ inputs:
   OPENAI_API_KEY:
     description: "OpenAI API key for GPT."
     required: true
+  OPENAI_API_ENDPOINT:
+    description: "OpenAI Endpoint for GPT."
+    required: true
   OPENAI_API_MODEL:
     description: "OpenAI API model."
     required: false
